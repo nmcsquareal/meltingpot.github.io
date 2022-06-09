@@ -1,0 +1,110 @@
+/** Navigation **/
+
+*{
+    box-sizing:border-box;
+}
+
+.logo img{
+    width: 120px;
+    padding: 20px 0 20px 0;
+    transition: 1s;
+    cursor: pointer;
+    float: right;
+}
+
+.logo img:hover{
+    transform: rotateZ(360deg);
+}
+
+.nav{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(26, 24, 24);
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.nav a:hover{
+    transform: translateY(-4px);
+    color: rgb(230, 81, 11);
+}
+
+/** Services Content**/
+
+.list-options{
+    display: flex;
+    justify-content: space-around;
+}
+
+.options{
+    padding: 20px;
+}
+
+.list-options img{
+    width: 100%;
+    transition: 0.5s;
+}
+
+.list-options img:hover{
+    transform: scale(1.05);
+}
+
+.options h1{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.option-letter{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.option-text{
+    text-align: justify;
+}
+/** Footer Section **/
+
+footer{
+    background-color: rgb(228, 144, 18);;
+}
+
+.company{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.company a{
+    text-decoration: none;
+    color: white;
+}
+
+.company a:hover{
+    color: rgb(41, 37, 37);
+}
+
+hr{
+    width: 500px;
+    margin: 20px auto 0px auto;
+}
+
+footer .soc-med-logo{
+    text-align: center;
+}
+
+footer .soc-med-logo i{
+    padding: 20px;
+    color: rgb(41, 37, 37);
+    transition: 0.8s;
+}
+
+footer .soc-med-logo i:hover{
+    transform: scale(2);
+    color: white;
+}

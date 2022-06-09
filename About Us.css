@@ -1,0 +1,106 @@
+/** Navigation **/
+
+*{
+    box-sizing:border-box;
+}
+
+.logo img{
+    width: 120px;
+    padding: 20px 0 20px 0;
+    transition: 1s;
+    cursor: pointer;
+    float: right;
+}
+
+.logo img:hover{
+    transform: rotateZ(360deg);
+}
+
+.nav{
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(26, 24, 24);
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: 0.5s;
+}
+
+.nav a:hover{
+    transform: translateY(-4px);
+    color: rgb(230, 81, 11);
+}
+
+/** Start of About Us**/
+
+.about-us, .our-team{
+    justify-content: center;
+    background-color: rgb(230, 81, 11);
+    color: white;
+    font-size: 1.5rem;
+}
+
+.history{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.chef-img img{
+    width: 100%;
+}
+
+.chef-descr{
+    align-items: center;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.chef-descr h1{
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+
+/** Footer Section **/
+
+footer{
+    background-color: rgb(228, 144, 18);;
+}
+
+.company{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.company a{
+    text-decoration: none;
+    color: white;
+}
+
+.company a:hover{
+    color: rgb(41, 37, 37);
+}
+
+hr{
+    width: 500px;
+    margin: 20px auto 0px auto;
+}
+
+footer .soc-med-logo{
+    text-align: center;
+}
+
+footer .soc-med-logo i{
+    padding: 20px;
+    color: rgb(41, 37, 37);
+    transition: 0.8s;
+}
+
+footer .soc-med-logo i:hover{
+    transform: scale(2);
+    color: white;
+}
